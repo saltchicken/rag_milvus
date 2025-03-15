@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "rag_milvus"
 version = "0.1.1"
 dependencies = [
-  "pymilvus"
+  "pymilvus",
   "sentence_transformers"
 ]
 
