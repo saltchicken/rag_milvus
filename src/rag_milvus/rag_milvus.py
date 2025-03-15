@@ -77,6 +77,6 @@ class Rag():
         results = results[0]
         print(results)
 
-        results = [hit.entity.get('knowledge') for hit in results if hit.score > recall_threshold]
+        results = [hit.entity.get('knowledge') for hit in results if hit.score < recall_threshold]
 
         return results
