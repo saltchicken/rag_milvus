@@ -7,6 +7,7 @@ name = "rag_milvus"
 version = "0.1.1"
 dependencies = [
   "pymilvus"
+  "sentence_transformers"
 ]
 
 [tool.setuptools.packages.find]
